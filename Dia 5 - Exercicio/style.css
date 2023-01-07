@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin:0px;
+    font-family: 'Raleway';
+}
+
+nav{
+    background: #303030;
+    display: flex;  
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+nav p{
+    padding-left: 30px;
+}
+
+section {
+    margin-top: 2rem;
+    max-width: 100vw;
+    display: flex;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+
+section h2{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #265E70;
+}
+
+ul{
+    list-style: none;
+    width: 540px;
+    height: 554px;
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 30px;
+
+}
+
+.carousel{
+    overflow: hidden;
+}
+
+
+.texto-conheca{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color:#265E70;
+    margin-bottom: 0px;
+}
+
+.cor{
+    color:#4DBCE9;
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+li h2{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    color: #FFFFFF;
+}
+
+.texto-apartir{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom:10px;
+}
+
+.preco{
+    background-color: white;
+    width: 211px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    display: flex;
+    color: #265E70;
+
+}
+
+.plano{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+button{
+    width: 341px;
+    height: 75px;
+    left: 935px;
+    top: 849px;
+    border: none;
+    background: #4DBCE9;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+
+
